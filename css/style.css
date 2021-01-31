@@ -1,0 +1,27 @@
+h1 {
+  color: red;
+}
+.width200 {
+  width: 200px;
+  height: 200px;
+}
+.background-color {
+  background-color: #df25dfdf;
+  width: 200px;
+  height: 200px;
+}
+.background-image {
+  background-image: url("/image/mglass.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* width: 200px;
+  height: 200px; */
+}
+.border {
+  /* border: 10px solid red;
+  border: 10px dotted red; */
+  border: 10px dashed red;
+  border-bottom: 10px dashed blue;
+  border-right: 10px dashed green;
+}

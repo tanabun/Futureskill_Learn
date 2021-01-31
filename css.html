@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      h1 {
+        color: gray;
+      }
+      .important {
+        color: orange !important;
+      }
+      #myhead {
+        color: lawngreen;
+      }
+      .frist h1 {
+        color: darkred;
+        border: 5px outset black;
+        text-align: center;
+      }
+      .frist > h1 {
+        color: red;
+        border: 5px outset black;
+        text-align: center;
+      }
+      .hex h1 {
+        color: #ea00ff;
+      }
+      .rgb h1 {
+        color: rgb(123, 123, 123);
+      }
+      .rgba h1 {
+        /* color: rgba(123, 123, 123, 0.5); */
+        color: rosybrown;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>CSS 1</h1>
+    <h1 style="color: blue;">CSS 2</h1>
+
+    <h1 class="important" style="color: black;">CSS 3</h1>
+
+    <h1 id="myhead">CSS 4</h1>
+
+    <div class="frist">
+      <h1>CSS 6</h1>
+      <div><h1>CSS 7</h1></div>
+    </div>
+
+    <div class="frist">
+      <dev>
+        <h1>CSS 8</h1>
+      </dev>
+    </div>
+
+    <div class="hex">
+      <h1>CSS 9 hex</h1>
+    </div>
+
+    <div class="rgb">
+      <h1>CSS 10 rgb</h1>
+    </div>
+    <div class="rgba">
+      <h1>CSS 10 rgba</h1>
+    </div>
+
+    <div class="background-color"></div>
+    <div class="background-image width200"></div>
+    <div class="border width200"></div>
+  </body>
+</html>

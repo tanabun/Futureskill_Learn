@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="section" id="header">
+      <h1>This is a Header 1</h1>
+      <h2>This is a Header 2</h2>
+      <h3>This is a Header 3</h3>
+      <h4>This is a Header 4</h4>
+      <h5>This is a Header 5</h5>
+    </section>
+
+    <section class="section" id="paragrahp">
+      <p>
+        This is a paragrahp. Tell more.
+      </p>
+    </section>
+
+    <section class="section" id="formatting">
+      <p>This is a <strong>Bold</strong></p>
+      <p>This is a <em>Emphasize</em></p>
+      <p><mark>This is a Mark.</mark></p>
+      <p>This ti a <sub>Subscript</sub></p>
+      <p>This is a <del>Strikeout</del></p>
+    </section>
+
+    <section class="section" id="qoutations">
+      <p><q>This is a Qoute</q></p>
+      <blackquote>
+        This is a blockqoute.This is a blockqoute.This is a blockqoute.This is a
+        blockqoute.
+      </blackquote>
+      <bdo dir="rtl">This is a bdo.</bdo>
+      <p>This is a<abbr title="World Health Oraganization">WHO</abbr></p>
+    </section>
+
+    <section class="section" id="comment">
+      <!--<p>This is a comment.
+        More commnet
+      </p>-->
+    </section>
+    <section class="section" id="link">
+      <a href="https://google.com"><p>Google Linke: Click here</p></a>
+      <p>Google Linke: <a href="https://google.com">Click here</a></p>
+      <!--//Openlink New Tab-->
+      <a href="https://google.com" target="_blank">GGGG</a>
+    </section>
+
+    <section class="section" id="media">
+      <img src="image/mglass.jpg" alt="" width="300" />
+      <img src="image/glass.jpg" alt="glass" width="300" />
+      <video
+        src="https://futureskill.s3-ap-southeast-1.amazonaws.com/super+content.mp4"
+        width="300"
+      ></video>
+      <audio src="audio/"></audio>
+      <a></a>
+    </section>
+
+    <section class="section" id="table">
+      <table>
+        <caption>
+          MyTable
+        </caption>
+        <tr>
+          <th colspan="2" rowspan="2">Title</th>
+          <th>date</th>
+        </tr>
+        <tr>
+          <td>BUN</td>
+          <td>24/1/2021</td>
+        </tr>
+      </table>
+    </section>
+
+    <section class="section" id="list">
+      <ol>
+        <li>This list A</li>
+        <li>This list B</li>
+        <li>This list C</li>
+      </ol>
+      <ol type="I">
+        <li>This list A</li>
+        <li>This list B</li>
+        <li>This list C</li>
+      </ol>
+      <ul>
+        <li>This list A</li>
+        <li>This list B</li>
+        <li>This list C</li>
+      </ul>
+      <ul style="list-style-type: square;">
+        <li>This list A</li>
+        <li>This list B</li>
+        <li>This list C</li>
+      </ul>
+      <dl>
+        <dt>A</dt>
+        <dd>Detaile A</dd>
+        <dt>B</dt>
+        <dd>Detaile B</dd>
+      </dl>
+    </section>
+
+    <section class="section" id="iframe">
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/Nk5ah4weLsg"
+      ></iframe>
+    </section>
+
+    <section class="section" id="script">
+      <p id="test-script">This is a</p>
+      <script>
+        function runAlert() {
+          alert("this is a Script.");
+        }
+        document.getElementById("test-script").innerHTML = "My Name is a";
+      </script>
+      <script type="text/javascript" src="" asyc defer></script>
+    </section>
+
+    <section class="section" id="code">
+      <p>function test(a,b){ return a+b; }</p>
+      <pre>
+        <code>
+          function test(a,b){
+            return a+b;
+          }
+        </code>
+      </pre>
+      <p>x <var>x</var> = 1+2</p>
+    </section>
+
+    <section class="section" id="form">
+      <form>
+        TEXT: <input type="text" /><br />
+        TEXT2: <input type="text2" readonly value="readme" /><br />
+        NUMBER: <input type="number" /><br />
+        PASSWORD: <input name="password" type="password" /><br />
+        submit: <input type="submit" /><br />
+        textarea: <textarea name="" cols="30" rows="10"></textarea><br />
+        <br /><br />Select Gender:
+        <select name="">
+          <option value="m">Male</option>
+          <option value="f">Female</option> </select
+        ><br /><br />
+        Blue: <input type="radio" value="blue" /> Red:
+        <input type="radio" value="red" /> Green:
+        <input type="checkbox" value="Green" />
+        disabled <input type="text" disabled />
+        <button onclick="" type="subnit">Click Me</button>
+      </form>
+    </section>
+  </body>
+</html>
