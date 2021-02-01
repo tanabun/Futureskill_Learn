@@ -26,7 +26,7 @@ body {
   color: rgb(50, 50, 50);
   font-weight: bold;
 }
-
+/* -------------section 2----------------- */
 .cover .container {
   display: flex;
   align-items: center;
@@ -78,7 +78,7 @@ body {
   text-align: center;
 }
 .blog {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(247, 247, 247);
   padding: 50px 0 0;
 }
 .list-container {
@@ -119,4 +119,37 @@ body {
 .colored_button_div:hover a {
   color: white;
   text-decoration: none;
+}
+.company {
+  padding: 40px 0 0;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-2 img {
+  width: 100%;
+}
+
+.point_div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.single_point_div {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.single_point_div .point_circle {
+  margin-right: 20px;
+}
+.single_point_text {
+  line-height: 2;
 }
