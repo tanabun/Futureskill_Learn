@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+body {
+  font-family: "Kanit", sans-serif;
+}
+.my-nav {
+  padding: 20px 0;
+  background-color: rgb(50, 50, 50);
+}
+.cover {
+  background-image: url("/image/room.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 80vh;
+}
+.my-form {
+  background: white;
+  padding: 50px 50px 50px;
+  width: 400px;
+}
+
+.my-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(50, 50, 50);
+  font-weight: bold;
+}
+
+.cover .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+.cover .my-form .btn {
+  width: 100%;
+}
+.benefit {
+  padding: 50px 0;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-item {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-item img {
+  margin-bottom: 10px;
+}
+.t1 {
+  font-size: 24px;
+  color: rgb(50, 50, 50);
+  font-weight: bold;
+}
+.t2 {
+  text-align: center;
+}
+.header img {
+  width: 60px;
+  margin: 0 auto 15px;
+  display: block;
+}
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: rgb(99, 99, 99);
+  text-align: center;
+}
+.t3 {
+  font-size: 20px;
+  color: rgb(128, 128, 128);
+  text-align: center;
+}
+.blog {
+  background-color: rgb(245, 245, 245);
+  padding: 50px 0 0;
+}
+.list-container {
+  list-style: none;
+  padding: 20px 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+.list-container .list-item {
+  flex: 0 30%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.thumb img {
+  width: 100%;
+}
+.head_color {
+  font-size: 24px;
+  color: rgb(80, 160, 200);
+  margin-bottom: 0px;
+  padding: 15px 0px;
+}
+.colored_button {
+  text-decoration: none;
+}
+.colored_button_div {
+  padding: 15px 0;
+  width: 100%;
+  border-radius: 30px;
+  border: 1px solid rgb(80, 160, 200);
+  color: rgb(80, 160, 200);
+}
+.colored_button_div:hover {
+  background-color: rgb(80, 160, 200);
+  cursor: pointer;
+}
+.colored_button_div:hover a {
+  color: white;
+  text-decoration: none;
+}
